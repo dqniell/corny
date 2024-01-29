@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#barry {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#question {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Light pink */
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold; /* Make the buttons bold */
+}
+
+#yesBtn {
+    background-color: #ffb3d9; /* Light pink */
+    color: white;
+}
+
+#noBtn {
+    background-color: #ffb3d9; /* Lighter pink */
+    color: white;
+}
+
+#barry2 { 
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#yayMessage { 
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+}
