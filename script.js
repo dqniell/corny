@@ -20,7 +20,6 @@ function moveButton() {
     const buttonRect = noButton.getBoundingClientRect();
     const imageRect = barry.getBoundingClientRect();
 
-    // Generate a new position until it's outside the image boundaries
     do {
         randomX = Math.random() * (window.innerWidth - offset * 2) + offset;
         randomY = Math.random() * (window.innerHeight - offset * 2) + offset;
